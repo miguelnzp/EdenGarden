@@ -1,0 +1,47 @@
+.footer {
+
+    padding: $separacion / 2 0;
+    background-color: $grisOscuro;
+    margin-bottom: 0;
+
+    .contenedor-footer {
+        padding-top: $separacion / 2;
+
+    }
+
+    .navegacion {
+        visibility: visible;
+        opacity: 1;
+        height: auto;
+    }
+
+    .copyright {
+        color: $blanco;
+        text-align: center;
+    }
+
+    .networks {
+
+        display: flex;
+        justify-content: center;
+
+
+        @include tablet {
+            justify-content: end;
+            margin-right: 2rem;
+        }
+
+
+
+        a {
+            margin-left: 1rem;
+
+            img {
+                width: 2rem;
+                height: 2rem;
+            }
+        }
+    }
+
+
+}

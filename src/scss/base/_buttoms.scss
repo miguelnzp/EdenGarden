@@ -1,0 +1,7 @@
+.buttom-red {
+    @include buttom($red, inline-block);
+}
+
+.buttom-red-block {
+    @include buttom($red, block);
+}

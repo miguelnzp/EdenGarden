@@ -1,0 +1,20 @@
+@include tablet {
+    .contenedor-features {
+        @include grid(3, 2rem);
+    }
+}
+
+.feature {
+    background-color: lighten($gris, 5);
+    border: 1px solid darken($gris, 10);
+    margin-bottom: 1rem;
+
+    .contenido-feature {
+        padding: 2rem;
+    }
+
+    h3, p {
+        margin: 0;
+    }
+ 
+}
